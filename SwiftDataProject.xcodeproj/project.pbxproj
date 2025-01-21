@@ -11,6 +11,8 @@
 		E4F097742D3FEF12009BD5D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F097732D3FEF12009BD5D8 /* ContentView.swift */; };
 		E4F097762D3FEF14009BD5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F097752D3FEF14009BD5D8 /* Assets.xcassets */; };
 		E4F097792D3FEF14009BD5D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F097782D3FEF14009BD5D8 /* Preview Assets.xcassets */; };
+		E4F097802D3FEF3C009BD5D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F0977F2D3FEF3C009BD5D8 /* User.swift */; };
+		E4F097822D3FEF8B009BD5D8 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F097812D3FEF8B009BD5D8 /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E4F097732D3FEF12009BD5D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4F097752D3FEF14009BD5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F097782D3FEF14009BD5D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4F0977F2D3FEF3C009BD5D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E4F097812D3FEF8B009BD5D8 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				E4F097732D3FEF12009BD5D8 /* ContentView.swift */,
 				E4F097752D3FEF14009BD5D8 /* Assets.xcassets */,
 				E4F097772D3FEF14009BD5D8 /* Preview Content */,
+				E4F0977F2D3FEF3C009BD5D8 /* User.swift */,
+				E4F097812D3FEF8B009BD5D8 /* EditUserView.swift */,
 			);
 			path = SwiftDataProject;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F097742D3FEF12009BD5D8 /* ContentView.swift in Sources */,
+				E4F097822D3FEF8B009BD5D8 /* EditUserView.swift in Sources */,
 				E4F097722D3FEF12009BD5D8 /* SwiftDataProjectApp.swift in Sources */,
+				E4F097802D3FEF3C009BD5D8 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
