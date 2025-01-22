@@ -72,6 +72,12 @@ struct ContentView: View {
                     modelContext.insert(second)
                     modelContext.insert(third)
                     modelContext.insert(fourth)
+                    
+                    let job1 = Job(name: "Organise sock drawer", priority: 3)
+                    let job2 = Job(name: "Make dinner plans", priority: 4)
+                    
+                    first.jobs.append(job1)
+                    first.jobs.append(job2)
                 }
                 Button(showingUpcomingOnly ? "Show Everyone" : "Show Upcoming") { showingUpcomingOnly.toggle() }
                 Menu("Sort", systemImage: "arrow.up.arrow.down") {
